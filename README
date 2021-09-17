@@ -1,5 +1,3 @@
-Team member: Yan (Adam) Zhang
-
-1. On UChicago's Linux machine, needs to type export LD_LIBRARY_PATH=. before running to use the shared library
-2. client.c is used for debugging. It contains dummy code copied from one of the public test and is not used.
-
+A standalone UDP-based stateless file server that can be accessed through appropriate calls from client using client interfaces. 
+The file server store all of its data in an on-disk (filesystem image). 
+This image contains the on-disk representation of data structures and files, and client can request CRUD operations on the server 
